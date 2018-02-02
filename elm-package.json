@@ -2,7 +2,7 @@
     "version": "1.0.0",
     "summary": "The Frontend of tweeters-stats-golang :)",
     "repository": "https://github.com/Ahimta/tweeters-stats-elm.git",
-    "license": "UNLICENSED",
+    "license": "GPLv3",
     "source-directories": [
         "."
     ],
