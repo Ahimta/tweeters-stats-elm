@@ -6,9 +6,11 @@
 * Elm: `npm install --global elm elm-format`
 
 ## Build & Run (development)
+* `elm-package install`
 * `elm-reactor`
 
 ## Build & Run (production)
+* `elm-package install`
 * `elm-make Main.elm --output=index.html`
 
 ## Recommended Development Environment
