@@ -231,7 +231,7 @@ getTweetersStats =
             NewStats
             (Http.request
                 { method = "GET"
-                , headers = []
+                , headers = [ Http.header "X-Requested-With" "XMLHttpRequest" ]
                 , url = url
                 , body = Http.emptyBody
                 , expect = Http.expectJson tweetersStatsDecoder
@@ -251,7 +251,7 @@ logout =
             LogoutCmd
             (Http.request
                 { method = "DELETE"
-                , headers = []
+                , headers = [ Http.header "X-Requested-With" "XMLHttpRequest" ]
                 , url = url
                 , body = Http.emptyBody
                 , expect = Http.expectStringResponse (\_ -> Ok "")
