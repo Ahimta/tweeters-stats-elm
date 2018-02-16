@@ -146,7 +146,7 @@ loginButtonView : Bool -> Html Msg
 loginButtonView isBig =
     let
         loginUrl =
-            "http://localhost:8080/login/twitter"
+            "/login/twitter"
     in
         a [ classList [ ( "btn btn-success", True ), ( "btn-block btn-lg", isBig ) ], href loginUrl ] [ text "Login" ]
 
@@ -225,7 +225,7 @@ getTweetersStats : Cmd Msg
 getTweetersStats =
     let
         url =
-            "http://localhost:8080/tweeters-stats"
+            "/tweeters-stats"
     in
         Http.send
             NewStats
@@ -245,7 +245,7 @@ logout : Cmd Msg
 logout =
     let
         url =
-            "http://localhost:8080/logout"
+            "/logout"
     in
         Http.send
             LogoutCmd
