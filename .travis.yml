@@ -4,7 +4,7 @@ node_js:
 
 install:
 - npm install --global elm elm-format
-- elm-package install
+- elm-package install --yes
 
 script:
 - elm-make Main.elm --output=index.html
