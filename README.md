@@ -3,7 +3,7 @@
 
 ## Requirements
 * Node: using `.nvmrc` version (currrently v8.11.4)
-* Elm: `npm install --global elm elm-format`
+* Elm: `npm install --global elm@^0.18.0 elm-format`
 
 ## Build & Run (development)
 * `elm-package install`

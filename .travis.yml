@@ -3,7 +3,7 @@ node_js:
 - "8.11.4"
 
 before_script:
-- npm install --global elm elm-format
+- npm install --global elm@^0.18.0 elm-format
 
 install:
 - elm-package install --yes
