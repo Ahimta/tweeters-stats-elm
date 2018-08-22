@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/Ahimta/tweeters-stats-elm.svg?branch=master)](https://travis-ci.org/Ahimta/tweeters-stats-elm)
 
 ## Requirements
-* Node: using `.nvmrc` version (currrently v8.9.4)
+* Node: using `.nvmrc` version (currrently v8.11.4)
 * Elm: `npm install --global elm elm-format`
 
 ## Build & Run (development)
